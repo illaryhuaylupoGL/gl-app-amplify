@@ -1,7 +1,7 @@
 {
     "dev": {
         "configLevel": "project",
-        "useProfile": false,
-        "awsConfigFilePath": "/Users/illary.huaylupo/.amplify/awscloudformation/HquwqKFeuB"
+        "useProfile": true,
+        "profile": "amplify"
     }
 }
