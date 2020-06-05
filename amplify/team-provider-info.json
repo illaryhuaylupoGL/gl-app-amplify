@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-glappdev-dev-185627-authRole",
+            "UnauthRoleArn": "arn:aws:iam::002631123367:role/amplify-glappdev-dev-185627-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::002631123367:role/amplify-glappdev-dev-185627-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-glappdev-dev-185627-deployment",
+            "UnauthRoleName": "amplify-glappdev-dev-185627-unauthRole",
+            "StackName": "amplify-glappdev-dev-185627",
+            "StackId": "arn:aws:cloudformation:us-east-1:002631123367:stack/amplify-glappdev-dev-185627/644222a0-a6c7-11ea-9073-0af9b05c2cc1",
+            "AmplifyAppId": "d1h7etnyj5dcx3"
+        },
+        "categories": {
+            "auth": {
+                "glappdev004f8bda": {}
+            }
+        }
+    }
+}

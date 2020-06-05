@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"glappdev004f8bda": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}
