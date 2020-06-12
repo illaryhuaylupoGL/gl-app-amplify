@@ -1,5 +1,6 @@
 import React from "react";
 import { Switch, Route, withRouter } from "react-router-dom";
+import { withAuthenticator } from "@aws-amplify/ui-react";
 
 import Home from "./Home";
 import ChangePassword from "./ChangePassword";
@@ -20,4 +21,4 @@ function Container({ location }) {
   );
 }
 
-export default withRouter(Container);
+export default withAuthenticator(withRouter(Container));

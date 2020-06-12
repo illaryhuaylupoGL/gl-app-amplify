@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import logo from "../logo.svg";
 import "./Home.css";
-import { withAuthenticator } from "@aws-amplify/ui-react";
+// import { withAuthenticator } from "@aws-amplify/ui-react";
 import { Jumbotron, Container, Card } from "react-bootstrap";
 import { Auth } from "aws-amplify";
 
@@ -73,4 +73,5 @@ function Home() {
   );
 }
 
-export default withAuthenticator(Home, true);
+// export default withAuthenticator(Home, true);
+export default Home;
